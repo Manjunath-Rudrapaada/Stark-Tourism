@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav">
+
+  <a [routerLink]="['/']"> <i class="fa fa-fw fa-home"></i> HOME</a>
+  <a [routerLink]="['/contact']"><i class="fa fa-fw fa-envelope"></i> CONTACT</a>
+  <a [routerLink]="['/aboutus']"><i class="fa fa-fw fa-address-card"></i> ABOUT US</a>
+  <a [routerLink]="['/']"><i class="fa fa-fw fa-question-circle"></i> FAQ</a>
+  
+  <div class="topright">
+
+    <a [routerLink]="['/']"><i class="fa fa-fw fa-search"></i></a>
+    <a href="https://manjunath-rudrapaada.github.io/CV/" target="_blank"> BLOG</a>
+    <a href="https://www.facebook.com/rudrapaada.m/" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+    <a href="https://www.instagram.com/the_invincible_rudrapaada/" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+    <a [routerLink]="['/']"><i class="fa fa-fw fa-twitter"></i></a>
+    <a [routerLink]="['/']"><i class="fa fa-fw fa-reddit"></i></a>
+    <a [routerLink]="['/']"><i class="fa fa-fw fa-pinterest"></i></a>
+
+  </div>
+
+</div>
+
+<div class="ad1">
+  <marquee direction="rtl"> <a href="https://www.goibibo.com/" target="blank">AVAIL FLIGHTS AND HOTELS AT CHEAPER RATES!!! CLICK HERE!!!</a></marquee>
+</div>
+
+
+<section class="secone">
+
+  <p><a [routerLink]="['/andra']">ANDHRA PRADESH</a></p>
+  <p><a [routerLink]="['/assam']">ASSAM</a></p>
+  <p><a [routerLink]="['/goa']">GOA</a></p>
+  <p><a [routerLink]="['/himachal']">HIMACHAL PRADESH</a></p>
+  <p><a [routerLink]="['/jk']">JAMMU and KASHMIR</a></p>
+  <p><a [routerLink]="['/karnataka']">KARNATAKA</a></p>
+  <p><a [routerLink]="['/kerala']">KERALA</a></p>
+  <p><a [routerLink]="['/meghalaya']">MEGHALAYA</a></p>
+  <p><a [routerLink]="['/rajasthan']">RAJASTHAN</a></p>
+  <p><a [routerLink]="['/sikkim']">SIKKIM</a></p>
+  
+
+</section>
+
+<section class="sectwo">
+
+    <p><img src="assets/img/iron-man-suit-360000-usd-0.gif"></p>
+    <h3><a href="https://shop.marvel.com/" class="ad2" target="blank">***Buy this product***</a></h3> <br>
+
+    <p><img src="assets/img/hand.gif"></p>
+    <h3><a href="https://shop.marvel.com/" class="ad2" target="blank">***Visit Store***</a></h3>
+
+</section>
+
+<section class="secmid">
+
+  <router-outlet></router-outlet>
+
+</section>
+
+<div class="footer">
+ 
+  <p><i class="fa fa-fw fa-copyright"></i> 2020. All Rights Reserved</p>
+
+</div>

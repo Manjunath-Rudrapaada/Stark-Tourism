@@ -1,0 +1,21 @@
+.home{
+    /*background-image: url("E:\Practice\Angular\RoutingProject\src\app\home\background.png");*/
+    /*backdrop-filter: opacity(10%);*/
+    /*background-attachment: fixed;
+    background-repeat: repeat;*/
+    font-size: 59px; 
+}
+ @keyframes hometext{
+     0% { color: gold; }
+     100% { color: red; }
+ }
+
+ .home{
+     animation-name: hometext;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+ }
+ img{
+     width: 100%;
+     height: 520px;
+ }

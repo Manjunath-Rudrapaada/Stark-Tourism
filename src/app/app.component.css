@@ -1,0 +1,112 @@
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.topright{
+    float: right;   
+  }
+
+.footer{
+    color: whitesmoke;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    font-size: 12px;
+    height: 30px;
+  }
+
+.secone{
+  float: left;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 600px;
+  text-align: center;
+  }
+ 
+.sectwo{
+    float: right;
+    text-align: center;
+    width: 20%;
+  }
+
+.secone a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    display: block;
+    padding: 5px;
+  }
+
+.secone a:hover{
+    background-color: #ddd;
+    color: darkblue;
+  }
+
+  .secone a.active{
+    background-color: #4CAF50;
+    color: white; 
+  }
+
+  .sectwo img{
+    width: 200px;
+    height: 200px;
+  }
+
+  @keyframes ads{
+    0% {color: blue;}
+    25% {color: red;}
+    50% {color: orange;}
+    100% {color: green;}
+  }
+
+  .ad2{
+    animation-name: ads;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .ad1{
+    background-color: wheat;
+  }
+
+  .ad1 a{
+    text-decoration: none;
+    animation-name: ads;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .secmid{
+    float : right;
+    width: 59%;
+    text-align: justify;
+    overflow: auto;
+    height: 595px;
+  }
